@@ -1,0 +1,8 @@
+#SET LANG
+export LANG=ja_JP.UTF-8
+export PYTHONIOENCODING=utf-8
+
+#AMI の名前の接頭詞に利用します。（ローテションに利用されます）
+SNAPSHOT_PREFIX=backup
+#AMI 保持期限です。
+N_DAY=14
